@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We created a variable called "name" and assigned "Dane" as that name.
+// We then made a conditional determining if that name is equal to "Mary" then
+// the console will display a string saying "Hi, Mary" otherwise it will just say
+//"How do you do?" so right now it will only say "how do you do" until Mary shows up.
 
 //CODE
 /*
@@ -45,10 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We set 2 variables. 1 being "secret" and the other being "code". we determined that code is 123
+// then we created a conditional that determines what string (word) will come out 
+// based on the numerical value of "code" if the code is equal to 123 then the secret word is
+// "super". if the code is greater than 250 then the secret word is "duper" 
 
 //CODE
 /*
@@ -70,10 +70,10 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// the vairables establish that there is a 34 year old student that lives in 
+// south minneapolis, (powderhorn/bancroft neighborhood). the conditional statement 
+// provides 4 potential responses based on the variables. each condition is quite 
+// humorous and even provides an output if they are not a student at all.
 
 //CODE
 /*
@@ -137,6 +137,11 @@ let mix = true;
 if (mix === true) {
   colorOne = 'purple';
 }
+// FIX The conditional statement should look like this.
+if (mix) {
+  colorOne = 'purple';
+  colorTwo = 'purple';
+}
 */
 
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
@@ -151,7 +156,10 @@ if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
 */
-
+//FIX the conditional statement is missing the &&, that correlates the 2 boolean expressions.
+//if (temp > 39 && time >=4) {
+//console.log('throw away the food!');
+//}
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
 // We check if age is greater than or equal to minAge 
 // -- it is, so we console.log 'enter'.
@@ -165,5 +173,10 @@ if(minAge <= age) {
 } else {
   console.log('enter');
 }
+//FIX
+if (age >= minAge) {
+  console.log('enter');
+} else {
+  console.log('no entry');
+}
 */
-
