@@ -45,10 +45,14 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// We set 2 variables. 1 being "secret" and the other being "code". we determined that code is 123
-// then we created a conditional that determines what string (word) will come out 
-// based on the numerical value of "code" if the code is equal to 123 then the secret word is
-// "super". if the code is greater than 250 then the secret word is "duper" 
+// We set 2 variables. 1 being "secret" with no assigned value. and the other being "code". we determined that code is assigned
+// assigned the value 123
+// then we created a conditional that checks if the value code is equal to 123.
+// because the condition is true, the if statement is run and secret is assigned the
+// value "super" and the variable "code" is multiplied by 2, which is 246. the next
+// if statement checks if the value of "code" (246) is greater than 250. because the
+// condition is false the value of secret stays the same instead of being reassigned to "duper".
+// The logging of secret at the end is "super" because the last if statement was false.
 
 //CODE
 /*
@@ -70,10 +74,12 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// the vairables establish that there is a 34 year old student that lives in 
+// the variables establish that there is a 34 year old student that lives in 
 // south minneapolis, (powderhorn/bancroft neighborhood). the conditional statement 
 // provides 4 potential responses based on the variables. each condition is quite 
-// humorous and even provides an output if they are not a student at all.
+// humorous and even provides an output if they are not a student at all. in this case
+// because the "isStudent" variable is true it satisfies one of the conditions and the
+// log will put out 'Welcome to Prime!'
 
 //CODE
 /*
